@@ -128,7 +128,7 @@ h1 {
 footer {
     background-color: #a4c6d2;
     overflow: hidden;
-    margin: 1.5;
+    margin: 0;
     padding: 0
 }
 footer p {
@@ -216,6 +216,7 @@ footer p {
     border: solid .35rem #edbfae;
     margin: 7%;
     padding: 0;
+    
 }
 .bucket1 a,
 .bucket1 a:link,
@@ -235,11 +236,12 @@ footer p {
 }
 .bucket1 figcaption {
     background-color: #cfc8c2;
+    text-decoration: none;
 }
 .bucket3 {
     overflow: hidden;
     margin: 0 0 1.5rem;
-    padding: 0.75;
+    padding: 0;
     background-color: #cfc8c2;
 }
 .bucket3 img {
@@ -255,6 +257,7 @@ footer p {
     padding: 0.75rem;
     font-family: Rosario;
     color: white;
+    
 }
 .image1 {
     height: 12rem;
@@ -294,3 +297,31 @@ ul {
     font-family: Trocchi;
     line-height: 1rem;
 }
+
+.product {
+    margin:auto;
+    padding:0;
+    line-height: 1rem;
+    background-color: black;
+}
+
+.sale {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin:auto;
+    padding:0;
+    line-height: 1rem;
+    background-color: black;
+    
+}
+
+.price {
+    font-weight:normal;
+    font-size: 1.5rem;
+    margin:auto;
+    padding:0;
+    line-height: 1rem;
+    background-color: black;
+    
+}
+    
