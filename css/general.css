@@ -216,7 +216,6 @@ footer p {
     border: solid .35rem #edbfae;
     margin: 7%;
     padding: 0;
-    
 }
 .bucket1 a,
 .bucket1 a:link,
@@ -229,7 +228,6 @@ footer p {
     font-size: 1.75rem;
     color: white;
     text-align: center;
-  
 }
 .bucket1 a:nth-child(even) {
     margin: 0;
@@ -257,7 +255,6 @@ footer p {
     padding: 0.75rem;
     font-family: Rosario;
     color: white;
-    
 }
 .image1 {
     height: 12rem;
@@ -297,31 +294,25 @@ ul {
     font-family: Trocchi;
     line-height: 1rem;
 }
-
 .product {
-    margin:auto;
-    padding:0;
+    margin: auto;
+    padding: 0;
     line-height: 1rem;
     background-color: black;
 }
-
 .sale {
     font-weight: bold;
     font-size: 1.5rem;
-    margin:auto;
-    padding:0;
+    margin: auto;
+    padding: 0;
     line-height: 1rem;
     background-color: black;
-    
 }
-
 .price {
-    font-weight:normal;
+    font-weight: normal;
     font-size: 1.5rem;
-    margin:auto;
-    padding:0;
+    margin: auto;
+    padding: 0;
     line-height: 1rem;
     background-color: black;
-    
 }
-    
