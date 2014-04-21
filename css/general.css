@@ -49,6 +49,9 @@ header {
     width: auto;
     margin: .75rem 5%;
     padding: 0;
+    position: relative;
+    left: 80px;
+    top: -65px;
     
     
 }
@@ -57,15 +60,35 @@ header {
     height: 3.75rem;
     margin: .75rem;
     padding: 0;
+    position: relative;
+    right: 150px;
     
 }
+
+
+    
+    
     
 
 .billboard {
     overflow:hidden;
+    background-image: url(../images/background_image/header_homepage.jpg);
     background-repeat:no-repeat;
     background-position:center;
-    background-size: 60rem;
+    background-size: 100%;
+    padding:0;
+    margin: auto;   
+}
+
+ h1 {
+    background-color:rgba(181, 176, 195, .5);
+    font-family: Trocchi;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    letter-spacing: .3rem;
+    margin: 7rem 0;
+    padding: .25rem 5%
 }
 
 
@@ -86,6 +109,7 @@ footer p {
 
 .phone {
     font-size: 1.5rem;
+    margin: .75rem;
 }
 
 .icon {
