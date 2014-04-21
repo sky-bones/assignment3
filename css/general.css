@@ -89,6 +89,13 @@ header {
     padding: 0;
     margin: auto;
 }
+hr {
+    height: 2rem;
+    background-color: #edbfae;
+    margin: 0;
+    padding: 0;
+    border: solid .35rem #edbfae;
+}
 .billboard-company {
     overflow: hidden;
     background-image: url(../images/company_header_images/pattern.svg);
@@ -162,7 +169,6 @@ footer p {
     left: 320px;
     top: -204px;
 }
-
 .nav-btn,
 .nav-btn:link,
 .nav-btn:visited {
@@ -203,22 +209,19 @@ footer p {
     color: white;
     text-decoration: none;
 }
-
-.ring {
+/*.ring {
     width: 150px;
-	height: 150px;
-	border-radius: 150px;
+    height: 150px;
+    border-radius: 150px;
     -webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(../images/jewelry_homepage/jewelery_homepage_rings.jpg) no-repeat;
+    -moz-border-radius: 150px;
+    background: url(../images/jewelry_homepage/jewelery_homepage_rings.jpg) no-repeat;
     border: solid .35rem #edbfae;
     background-position: -12px -50px;
     background-size: 40rem;
     padding: 1rem;
     margin: 1rem;
 }
-
-
 h2 {
     font-size: 1.75rem;
     color: white;
@@ -227,7 +230,6 @@ h2 {
     position: absolute;
     left: 30px
 }
-
 .h3 {
     font-size: 1.75rem;
     color: white;
@@ -237,14 +239,13 @@ h2 {
     top: 20px;
     left: 10px
 }
-
 .necklace {
     width: 150px;
-	height: 150px;
-	border-radius: 150px;
+    height: 150px;
+    border-radius: 150px;
     -webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(../images/jewelry_homepage/jewelry_homepage_necklace.jpg);
+    -moz-border-radius: 150px;
+    background: url(../images/jewelry_homepage/jewelry_homepage_necklace.jpg);
     border: solid .35rem #edbfae;
     background-position: -12px -55px;
     background-size: 40rem;
@@ -254,14 +255,13 @@ h2 {
     left: 180px;
     top: -168px;
 }
-
 .bracelet {
     width: 150px;
-	height: 150px;
-	border-radius: 150px;
+    height: 150px;
+    border-radius: 150px;
     -webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(../images/jewelry_homepage/jewelry_homepage_bracelets.jpg);
+    -moz-border-radius: 150px;
+    background: url(../images/jewelry_homepage/jewelry_homepage_bracelets.jpg);
     border: solid .35rem #edbfae;
     background-position: -9px -15px;
     background-size: 10rem;
@@ -271,7 +271,6 @@ h2 {
     left: 180px;
     top: -168px;
 }
-
 .h4 {
     font-size: 1.75rem;
     color: white;
@@ -281,21 +280,125 @@ h2 {
     top: 20px;
     left: 10px
 }
-
 .earings {
     width: 150px;
-	height: 150px;
-	border-radius: 150px;
+    height: 150px;
+    border-radius: 150px;
     -webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
-	background: url(../images/jewelry_homepage/jewelry_homepage_earings.jpg);
+    -moz-border-radius: 150px;
+    background: url(../images/jewelry_homepage/jewelry_homepage_earings.jpg);
     border: solid .35rem #edbfae;
     background-position: -9px -15px;
     background-size: 10rem;
     padding: 2rem;
     margin: 1rem;
     position: relative;
-    left: 180px;
-    top: -168px;
+    top: -325px;
 }
+.h5 {
+    font-size: 1.75rem;
+    color: white;
+    font-family: Trocchi;
+    background-color: #cfc8c2;
+    position: absolute;
+    top: 20px;
+    left: 10px
+} */
+
+--------------------
+/* Buckets as Figure */
+
+/*
+
+.bucket1 {
+    overflow: hidden;
+    background-color: red;
+    /* Visual Aid */
+}
+.bucket1 figure {
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    border: solid .35rem #edbfae;
+    margin: .75rem;
+    padding: 0;
+}
+.bucket1 a,
+.bucket1 a:link,
+.bucket1 a:visited {
+    float: left;
+    width: 45%;
+    /* First and second buckets. 45% x 2 = 90% */
+    margin: 0 10% 1.5rem 0;
+    /* First and second bucket right margins. 10% x 2 = 20%  */
+    padding: 0;
+}
+/* THE PROBLEM: The sum total of figure + margin + figure must equal 100%. But we are currently over by 10% because all figures have right margin (figure + margin + figure + margin = 110%). We therefore need to use an "nth-child" to target every "even" (2nd, 4th etc.) figure to have no right margin. */
+
+.bucket1 a:nth-child(even) {
+    /* every even numbered <figure> has no margin */
+    margin: 0;
+}
+.bucket1 figcaption {
+    background-color: #cfc8c2;
+    
+    
+}
+.bucket3 {
+   overflow: hidden;
+    margin: 0 0 1.5rem;
+    padding: 0.75;
+    background-color: #cfc8c2;
+}
+.bucket3 img {
+    float: left;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+.bucket3 figcaption {
+    float: right;
+    width: 50%;
+    margin: 0;
+    padding: 0.75rem;
+    font-family: Rosario;
+    color: white;
+}
+.image1 {
+    height: 12rem;
+}
+
+
+.mission {
+    overflow: hidden;
+    background-image: url(../images/company_header_images/pattern.svg);
+    height: 4rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+    padding: 0;
+    margin: 0;
+}
+
+.mission1 {
+    background-color: rgba(181, 176, 195, .8);
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.75rem 0;
+    padding: .25rem 5%
+}
+
+p {
+    font-size: 4rem;
+    margin: 4rem;
+}
+
+
+
+
+    
+    
     
