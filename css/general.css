@@ -190,6 +190,7 @@ footer p {
     -o-transition: all 250ms linear;
     -webkit-transition: all 250ms linear;
     transition: all 250ms linear;
+    text-decoration: none;
 }
 .nav-top[data-state="expanded"] {
     max-height: 13em;
