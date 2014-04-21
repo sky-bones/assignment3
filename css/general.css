@@ -355,7 +355,7 @@ h2 {
 .bucket3 img {
     float: left;
     width: 45%;
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 .bucket3 figcaption {
@@ -386,15 +386,25 @@ h2 {
     background-color: rgba(181, 176, 195, .8);
     color: white;
     font-size: 2rem;
+    font-family: Rosario;
     text-align: center;
     margin: 0.75rem 0;
     padding: .25rem 5%
 }
 
-p {
-    font-size: 4rem;
-    margin: 4rem;
+.company-p {
+    margin: 0.75rem;
+    font-family: Trocchi;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
+
+ul {
+    margin: 0 0 2rem 0;
+}
+
+
+
 
 
 
